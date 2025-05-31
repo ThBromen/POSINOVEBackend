@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Tailwind output cache (optional)
+*.css.map
+
+# Coverage (if using testing tools like Jest)
+coverage/
+
+# React-specific
+*.log
+*.lock
+*.cache
+.next/
+out/
