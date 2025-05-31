@@ -14,10 +14,11 @@ connectDB();
 
 app.use(
   cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://posinovebackend.onrender.com', 
     credentials: true, 
   })
 );
+
 app.use(express.json()); 
 app.use(cookieParser()); 
 
@@ -28,5 +29,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on https://posinovebackend.onrender.com:${PORT}`);
 });
